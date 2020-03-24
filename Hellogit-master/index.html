@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>portfolio2</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/slider-pro.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+    <script src="static/js/jquery.sliderPro.min.js"></script>
+
+    <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
+
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+    <script>
+        //グローバルメニューを下にスクロールしたら出現させる
+        var startPos = 0,
+            winScrollTop = 0;
+        $(window).on('scroll', function() {
+            winScrollTop = $(this).scrollTop();
+            if (winScrollTop <= 100) {
+                $('.site-header').addClass('hide');
+            } else {
+                $('.site-header').removeClass('hide');
+            }
+        })
+    </script>
+
+    <script>
+        $(document).ready(function($) {
+            $('#slider3').sliderPro({
+                width: '900',
+                height: '100px',
+                arrows: true,
+                buttons: true,
+                aspectRatio: 1.5,
+                forceSize: 'fullWindow',
+                slideDistance: 0,
+            });
+        });
+    </script>
+
+
+
+</head>
+
+<body>
+
+    <header class="site-header flex flex--bet">
+        <div class="headerPC-wrap">
+            <h1 class="site-logo">
+                <img class="site-logo_img" src="static/image/logo.png" alt="ロゴ">
+            </h1>
+            <ul class="gnav_menu flex flex--bet">
+                <li class="gnav_menu_item">
+                    <a class="gnav_menu_item_link" href="">TestBrand</a>
+                    <div class="gnav_menu2">
+                        <div class="gnav_menuChild">
+                            <ul class="brandlist">
+                                <li><a href="">All ITEMS</a></li>
+                                <li><a href="">NEW</a></li>
+                            </ul>
+                            <ul class="clothlist">
+                                <li><a href="">OUTERWEAR</a></li>
+                                <li><a href="">PANTS</a></li>
+                                <li><a href="">TOPS/SWEATERS</a></li>
+                                <li><a href="">SHOES</a></li>
+                                <li><a href="">SWEATSHIRTS</a></li>
+                                <li><a href="">ACCESSORIES</a></li>
+                                <li><a href="">OTHERS</a></li>
+                                <li><a href="">T-SHIRTS</a></li>
+                                <li><a href="">SHIRTS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="wrapper">
+        <video class="video" poster="" muted loop autoplay>
+        <source src="https://assets.mixkit.co/videos/2396/2396-720.mp4"  type="video/mp4" >
+        </video>
+
+        <video class="video2" poster="" muted autoplay loop>
+        <source src="https://assets.mixkit.co/videos/2131/2131-720.mp4" type="video/mp4">
+        </video> >
+    </div>
+    <article class="item-wrapper">
+        <div class="items-content">
+            <div class="items-title">
+                <img src="static/image/leather-jacket.jpg" alt="レザージャケット">
+            </div>
+            <div class="botton">
+                <a data-text="Viewmore" href=""></a>
+                <span>Viewmore</span>
+            </div>
+        </div>
+    </article>
+
+    <div class="pickup">
+        <ul>
+            <li class="effect start">
+                <a href="#">
+                    <img src="static/image/fashion-1866572_640.jpg" alt="サンプル画像" height="400" width="300">
+
+                </a>
+            </li>
+            <li class="effect start">
+                <a href="#">
+                    <img src="static/image/fashion-1866572_640.jpg" alt="サンプル画像" height="400" width="300">
+                </a>
+            </li>
+            <li class="effect start">
+                <a href="#">
+                    <img src="static/image/fashion-1866572_640.jpg" alt="サンプル画像" height="400" width="300">
+                </a>
+            </li>
+            <li class="effect start">
+                <a href="#">
+                    <img src="static/image/fashion-1866572_640.jpg" alt="サンプル画像" height="400" width="300">
+
+                </a>
+            </li>
+            <li class="effect start">
+                <a href="#">
+                    <img src="static/image/fashion-1866572_640.jpg" alt="サンプル画像" height="400" width="300">
+
+                </a>
+            </li>
+            <li class="effect start">
+                <a href="#">
+                    <img src="static/image/fashion-1866572_640.jpg" alt="サンプル画像" height="400" width="300">
+
+                    <div style="clear: both;"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div id="slider3" class="slider_pro">
+        <div class="sp-slides">
+            <div class="sp-slide">
+                <img class="sp-image" src="static/image/fashion-1866572_640.jpg">
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="static/image/fashion-1866572_640.jpg" alt="フェラーリ">
+            </div>
+            <div class="sp-slide">
+                <img class="sp-image" src="static/image/fashion-1866572_640.jpg" alt="メルセデス">
+            </div>
+        </div>
+    </div>
+
+
+</body>
