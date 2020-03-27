@@ -1,0 +1,215 @@
+/*
+*Theme Name:HELLOGIT
+*Description:オリジナルテーマです
+*Version:1:0:0
+*Author:侍エンジニ塾
+
+*/
+
+body {
+    animation: fadeIn 6s ease-in-out 0s 1 normal;
+    -webkit-animation: fadeIn 6s ease-in-out 0s 1 normal;
+    overflow-x: hidden;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.site-header {
+    background: black;
+    padding-top: 0px;
+    padding-left: 20px;
+    position: fixed;
+    top: 0;
+    transition: 3s;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.hide {
+    display: none;
+}
+
+.site-logo_img {
+    width: 70px;
+    height: 60px;
+    padding-top: 0px;
+}
+
+.gnav_menu {
+    bottom: 0px;
+    top: 20px;
+    left: 50%;
+    margin-left: -165px;
+    position: absolute;
+    width: 330px;
+}
+
+.gnav_menu_item {
+    left: 0%;
+    height: 50px;
+}
+
+.gnav_menu_item_link {
+    color: white;
+    font-size: 29px;
+}
+
+.gnav_menu>li>div {
+    visibility: hidden;
+}
+
+.gnav_menu>li:hover>div,
+.gnav_menu>li>div:hover {
+    visibility: visible;
+    background-color: rgba(31, 31, 31, .96);
+}
+
+.gnav_menu2 {
+    position: absolute;
+    top: 50px;
+    width: 1400px;
+    left: -470px;
+    box-sizing: border-box;
+    padding: 40px 0;
+    z-index: 0;
+}
+
+.brandlist {
+    float: left;
+    display: block;
+    padding-left: 0px;
+    list-style: none;
+    margin-left: 550px;
+}
+
+.brandlist li a {
+    color: white;
+}
+
+.clothlist {
+    border-left: 1px solid #626262;
+    padding-left: 30px;
+    margin-left: 150px;
+    width: 340px;
+    z-index: 3;
+    margin-left: 650px;
+}
+
+.clothlist li {
+    float: left;
+    width: 50%;
+    list-style: none;
+}
+
+.clothlist li a {
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    height: 515px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video {
+    background: url() no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    left: 0;
+    min-height: 130vh;
+    min-width: 75vw;
+    position: relative;
+    top: -25%;
+}
+
+.video2 {
+    background: url() no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    left: -25%;
+    min-height: 130vh;
+    min-width: 75vw;
+    position: relative;
+    top: -25%;
+}
+
+.item-wrapper {
+    margin: 0px;
+}
+
+.items-title {
+    -webkit-filter: grayscale(100%);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: grayscale(100%);
+    width: 1300px;
+    height: 860px;
+}
+
+.botton {
+    position: relative;
+    z-index: 200;
+    text-align: center;
+    top: 300px;
+}
+
+.botton a {
+    color: white;
+    z-index: 200;
+}
+
+.pickup {
+    position: relative;
+    background-color: black;
+    height: 950px;
+    margin-top: 390px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    -webkit-filter: grayscale(100%);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: grayscale(100%);
+}
+
+.pickup a {
+    color: white;
+}
+
+.pickup>ul>li:nth-child(3n+1) {
+    clear: both;
+    display: flex;
+}
+
+.pickup>ul>li {
+    width: 33%;
+    height: 33%;
+    float: left;
+}
+
+.pickup>ul>li>a>img {
+    max-width: 100%;
+}
+
+#slider3 {
+    display: block;
+    padding-top: 30px;
+}
