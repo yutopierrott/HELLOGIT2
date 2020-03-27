@@ -63,7 +63,7 @@
                     <div class="gnav_menu2">
                         <div class="gnav_menuChild">
                             <ul class="brandlist">
-                                <li><a href="">All ITEMmmmmS</a></li>
+                                <li><a href="">All ITEMS</a></li>
                                 <li><a href="">NEW</a></li>
                             </ul>
                             <ul class="clothlist">
