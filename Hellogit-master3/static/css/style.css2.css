@@ -1,0 +1,61 @@
+.wrapper {
+    position: relative
+}
+
+.wrapper p {
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    font-size: 60px;
+    width: 1200px;
+    height: 100px;
+    text-align: center;
+}
+
+.wrapper2 {
+    background-color: black;
+    height: 300px;
+}
+
+.wrapper2 h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.wrapper2 p {
+    padding-top: 10px;
+    font-size: 15px;
+    color: white;
+    line-height: 3pt;
+    text-align: center;
+}
+
+.wrapper3 {
+    background-color: black;
+    height: 700px;
+}
+
+.wrapper3 h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.wrapper3 img {
+    margin-right: 25%;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.wrapper3 p {
+    padding-top: 10px;
+    font-size: 15px;
+    color: white;
+    line-height: 3pt;
+    text-align: center;
+}
